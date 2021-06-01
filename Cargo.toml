@@ -1,0 +1,12 @@
+[package]
+name = "flipacoin"
+version = "0.1.0"
+authors = ["mib <mib@mib.dev>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.8.3"
+
+[[bin]]
+name = "flip"
+path = "src/main.rs"
